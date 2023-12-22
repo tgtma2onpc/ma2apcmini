@@ -2,7 +2,8 @@
 var easymidi = require('easymidi');
 var W3CWebSocket = require('websocket')
     .w3cwebsocket;
-var client = new W3CWebSocket('ws://localhost:80/'); //U can change localhost(127.0.0.1) to Your console IP address
+var client = new W3CWebSocket('ws://2.1.1.101/');
+
 
 
 //config 
