@@ -45,9 +45,9 @@ wing = 1;   //set wing 1, 2 or 3 mode
 
 page = 1;   //set page select mode - 0-off, 1-only exec buttons(5), 2-exec buttons and faders together(5)
 
-midi_in = 'APC MINI 0';     //set correct midi in device name
+midi_in = 'APC MINI mk2';     //set correct midi in device name
 
-midi_out = 'APC MINI 1';    //set correct midi out device name 
+midi_out = 'APC MINI mk2';    //set correct midi out device name 
 
 
 in mk2 version u can select led brightness and new color mode
@@ -125,9 +125,8 @@ If U want connect to console:
 
 find this line
 
-var client = new W3CWebSocket('ws://localhost:80/');
+var client = new W3CWebSocket('ws://2.1.1.101/');
 
-and change localhost:80 to console IP Addres
 
 -------------------------------- 
 
