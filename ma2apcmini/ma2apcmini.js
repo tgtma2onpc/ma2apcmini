@@ -1,4 +1,4 @@
-//ma2apcmini v 1.3.5 by ArtGateOne  
+//ma2apc40 mk2 v 1.3.5 by ArtGateOne  
 var easymidi = require('easymidi');
 var W3CWebSocket = require('websocket')
     .w3cwebsocket;
@@ -8,8 +8,8 @@ var client = new W3CWebSocket('ws://localhost:80/'); //U can change localhost(12
 //config 
 wing = 1;   //set wing 1, 2 or 3
 page = 1;   //set page select mode - 0-off, 1-only exec buttons(5), 2-exec buttons and faders together(5)
-midi_in = 'APC MINI';     //set correct midi in device name
-midi_out = 'APC MINI';    //set correct midi out device name
+midi_in = 'APC40 MK2';     //set correct midi in device name
+midi_out = 'APC40 MK2';    //set correct midi out device name
 
 
 //global variables
@@ -89,7 +89,7 @@ function midiclear() {
 //console.log('\033[2J');
 
 //display info
-console.log("Akai APC mini MA2 WING " + wing);
+console.log("Akai APC40 MK2 MA2 WING " + wing);
 console.log(" ");
 
 //display all midi devices
